@@ -1,0 +1,83 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Planova Landing Page</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <style>  
+        body {  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+            background-color: #f0f0f0;  
+        }  
+        header {  
+            background: rgba(255, 255, 255, 0.8);  
+            position: sticky;  
+            top: 0;  
+            width: 100%;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+            padding: 20px;  
+        }  
+        nav {  
+            display: flex;  
+            justify-content: space-between;  
+        }  
+        .hero {  
+            background-image: url('hero.jpg');  
+            background-size: cover;  
+            padding: 100px 20px;  
+            color: white;  
+            text-align: center;  
+        }  
+        .features {  
+            display: flex;  
+            justify-content: space-around;  
+            padding: 20px;  
+        }  
+        .feature-card {  
+            background: rgba(255, 255, 255, 0.2);  
+            border-radius: 12px;  
+            padding: 20px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  
+            backdrop-filter: blur(10px);  
+        }  
+        footer {  
+            background: rgba(0, 0, 0, 0.8);  
+            color: white;  
+            text-align: center;  
+            padding: 10px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <nav>  
+            <div>Planova</div>  
+            <div><a href="#features">Features</a></div>  
+        </nav>  
+    </header>  
+    <section class="hero">  
+        <h1>Welcome to Planova</h1>  
+        <p>Your study group web application</p>  
+    </section>  
+    <section class="features" id="features">  
+        <div class="feature-card">  
+            <h2>Feature 1</h2>  
+            <p>Description of feature 1.</p>  
+        </div>  
+        <div class="feature-card">  
+            <h2>Feature 2</h2>  
+            <p>Description of feature 2.</p>  
+        </div>  
+        <div class="feature-card">  
+            <h2>Feature 3</h2>  
+            <p>Description of feature 3.</p>  
+        </div>  
+    </section>  
+    <footer>  
+        <p>© 2026 Planova. All rights reserved.</p>  
+    </footer>  
+    <script src="script.js"></script>  
+</body>  
+</html>
